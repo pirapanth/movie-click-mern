@@ -1,0 +1,85 @@
+.movie{
+  margin: 0px 120px;
+  margin-top: 100px;
+}
+.movie-text{
+  
+  font-size: 110px;
+  font-weight: 500;
+  line-height: 60px;
+}
+@keyframes changeColor1 {
+  0%, 50% {
+    color: orangered; 
+  }
+  51%,100% {
+    color: white; 
+  }
+}
+@keyframes changeColor2 {
+  0%, 50% {
+    color: white; 
+  }
+  51%,100% {
+    color: orangered; 
+  }
+}
+
+.movie-text .t1{
+  animation: changeColor1 4s linear infinite;
+}
+.movie-text .t2{
+  animation: changeColor2 4s linear infinite;
+}
+
+
+.movie-watch{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: fit-content;
+  margin-top: 40px;
+  padding: 5px 8px;
+  padding-left: 30px;
+  border-radius: 60px;
+  background-color: white;
+  cursor: pointer;
+}
+.movie-watch p{
+  color: orangered;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.movie-dot-play{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.movie-dots{
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  list-style: none;
+}
+.movie-dot{
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 7.5px;
+  cursor: pointer;
+}
+.movie-dot.green{
+  background: orangered;
+}
+.movie-play{
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+  gap: 30px;
+}
+.movie-play p{
+  color: #fff;
+  font-size: 19px;
+}

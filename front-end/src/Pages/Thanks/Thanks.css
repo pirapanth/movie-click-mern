@@ -1,0 +1,12 @@
+
+.thanks{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+}
+.thanks-pic{
+  width: 40%;
+  height: 40%;
+}
